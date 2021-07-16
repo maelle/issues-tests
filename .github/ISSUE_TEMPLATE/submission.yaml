@@ -6,12 +6,12 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
+  - type: input
     id: submitting-author
     attributes:
       label: Submitting Author
-      description: Also tell us, what did you expect to happen?
-      placeholder: GitHub username
+      description: <!--author1-->Name (@github_handle)<!--end-author1-->
+      placeholder: <!--author1-->Name (@github_handle)<!--end-author1-->
       value: "@githubusername"
     validations:
       required: true
