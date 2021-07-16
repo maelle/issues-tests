@@ -12,6 +12,6 @@ body:
       label: Submitting Author
       description: <!--author1-->Name (@github_handle)<!--end-author1-->
       placeholder: <!--author1-->Name (@github_handle)<!--end-author1-->
-      value: "@githubusername"
+      value: "Your Full Name (@githubusername)"
     validations:
       required: true
