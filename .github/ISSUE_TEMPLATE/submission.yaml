@@ -1,0 +1,16 @@
+name: Software submission
+description: Submit software for review
+title: "[Submission]: "
+
+---
+
+body:
+  - type: text
+    id: submitting-author
+    attributes:
+      label: Submitting Author
+      description: Also tell us, what did you expect to happen?
+      placeholder: GitHub username
+      value: "@githubusername"
+    validations:
+      required: true
