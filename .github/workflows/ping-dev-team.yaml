@@ -1,0 +1,15 @@
+on: push
+
+jobs:
+  ping_dev_team:
+    runs-on: ubuntu-latest
+    name: Test of ping-dev-team workflow
+    steps:
+      - uses: actions/checkout@v4
+      - id: Ping
+        uses: ropensci-review-tools/actions/ping-dev-team@main
+        shell: bash
+        with:
+          TEAM_SLUG: 'dev-guide'
+          REPO_NAME: 'test-repo'
+          ISSUE_NUM: 6
