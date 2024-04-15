@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: Ping
-        uses: ropensci-review-tools/actions/ping-dev-team@main
+        uses: ropensci-review-tools/actions/ping-dev-team@v1
         with:
           REPO_NAME: 'test-repo'
           ISSUE_NUM: 6
